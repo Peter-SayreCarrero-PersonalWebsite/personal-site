@@ -1,0 +1,57 @@
+body {
+/* Just the color for the background of the entire page. Going to keep it simple and gray, 
+will feel free to change in the future. This is just something to get down right now. */
+    background-color: rgb(20, 20, 20);
+    background-size: cover;    
+    
+}
+
+h1.topname {
+/* designing header aka my name at the top of every page */
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+h1 {
+/* designing the header of each page that lies under the list under my name */
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+section.project {
+/*determining size of project boxes, padding, border, margin */
+    max-width: 500px;
+    padding: 10px;
+    border: 10px solid;
+    margin: 25px;
+
+/* determining color */
+    background-color: rgb(4, 0, 39);
+    border-color: black;
+
+
+    
+}
+
+h2.projecthead {
+/* size of header margin + borders */
+    margin: 20px;
+
+    /* design */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+
+p {
+/* size of paragraph margin + borders */
+
+    /* design */
+    font-family: helvetica;
+    font-size: 20px;
+    color:aliceblue;
+
+}
