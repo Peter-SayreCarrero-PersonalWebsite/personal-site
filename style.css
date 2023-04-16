@@ -11,6 +11,7 @@ h1.topname {
     color:aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
+    
 }
 
 h1 {
@@ -20,6 +21,12 @@ h1 {
     font-size: 30px;
 }
 
+iframe {
+/* this is for the gif on the home page */
+    padding: 10px;
+    margin: 25px;
+
+}
 section.project {
 /*determining size of project boxes, padding, border, margin */
     max-width: 500px;
@@ -49,9 +56,50 @@ h2.projecthead {
 p {
 /* size of paragraph margin + borders */
 
+    padding: 10px;
+    margin: 25px;
     /* design */
     font-family: helvetica;
     font-size: 20px;
     color:aliceblue;
 
+
 }
+/* the following label form input button stuff is for the contact me page */
+label {
+    background-color: rgb(4, 0, 39);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    width: 20%;
+    padding: 10px;
+    border: 10px solid;
+    margin: 25px;
+    border-color: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+input, button {
+    width: 20%;
+    padding: 10px;
+    border: 10px solid;
+    margin: 0 25px;
+    border-color: black;
+
+}
+/* this is for the format of the nav bar at the top of each page */
+ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
