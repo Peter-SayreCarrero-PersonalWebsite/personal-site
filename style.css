@@ -35,7 +35,7 @@ section.project {
     margin: 25px;
 
 /* determining color */
-    background-color: rgb(4, 0, 39);
+    background: linear-gradient( rgb(4, 0, 39), rgb(3, 134, 167));
     border-color: black;
 
 
@@ -67,7 +67,7 @@ p {
 }
 /* the following label form input button stuff is for the contact me page */
 label {
-    background-color: rgb(4, 0, 39);
+    background: linear-gradient( rgb(4, 0, 39), rgb(3, 134, 167));
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     color: aliceblue;
