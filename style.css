@@ -109,3 +109,9 @@ display: flex;
 flex-direction: column;
 margin: 10px;
 }
+
+img.portgif {
+/* this is for the gifs on the portfolio page */
+width: 400px;
+height: auto;
+}
