@@ -103,3 +103,9 @@ ul {
 
 }
 
+img.aboutgif {
+/* this is for the gifs on the about page */
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
