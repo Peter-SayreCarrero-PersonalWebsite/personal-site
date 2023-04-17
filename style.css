@@ -128,7 +128,7 @@ height: auto;
     height: auto;
   }
 
-  label, form, input, button {
+  label, form, input, button, textarea {
     width: 90%;
   }
   
