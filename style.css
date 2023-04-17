@@ -84,7 +84,7 @@ form {
 
 }
 
-input, button {
+input, button, textarea {
     width: 400px;
     padding: 10px;
     border: 10px solid;
